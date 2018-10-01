@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.columnsWrapper {
+    border: 20px solid darkblue;
+    border-radius: 75px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1095px;
+    background-color: white;
+}
+
+.left {
+    width: 245px;
+    text-indent: 20px;
+    text-align: justify;
+    float: left;
+    margin-left: 60px;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: mediumpurple;
+}
+
+.middle {
+    width: 205px;
+    align-content: center;
+    text-indent: 20px;
+    text-align: justify;
+    float: left;
+    margin: 15px;
+    background-color: green;
+}
+
+.right {
+    flex: auto;
+    text-align: left;
+    float: left;
+    margin-right: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: orange;
+}
+
+.contentRow {
+    align-content: center;
+    border: 10px solid darkgray;
+    border-radius: 75px;
+    padding: 20px;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    flex: 100%;
+    text-align: center;
+}
+
+hr {
+    flex: 100%;
+    border-top: 5px dashed black;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}

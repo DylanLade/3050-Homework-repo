@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: navajowhite;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100%;
+    margin-top: 60px;
+    font-family: monospace;
+    padding: 20px;
+    background-color: dimgrey; 
+    
+}
+
+header {
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: black;
+    border: 2px dashed black;
+    background
+}
+
+p.bio {
+    color: black;
+    font-family: cursive;
+    margin: 30px;
+    padding: 30px;
+}
+
+p.line {
+    text-decoration: line-through;
+}

@@ -1,0 +1,46 @@
+<!-- 
+     Name: Dylan Lade
+     PawPrint: dclqn8
+     Date: 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title id="title">Code Editor</title>
+    <link id="default" rel="stylesheet" href="Dclqn8CodeEditor.css">
+    <script src="Dclqn8CodeEditor.js"></script>
+    <style id="style"></style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 id="header" onclick="changeTitle()">CS2380 Code Editor</h1>
+        </div>
+        <div class="editWrapper">
+            <div class="left">
+                <textarea id="css" placeholder="CSS" ondblclick="sampleCSS()"></textarea>
+                <textarea id="html" placeholder="HTML" ondblclick="sampleHTML()"></textarea>
+            </div>
+            <div class="right">
+                <div id="display"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="buttonDiv">
+                <button id="launch" onclick="launchHTML()">Launch</button>
+                <button id="toggle" onclick="toggleCSS()">Toggle</button>
+                <button id="clear" onclick="clearCode()">Clear</button>
+            </div>
+            <div class="name">
+                <h2>By: Dylan Lade</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

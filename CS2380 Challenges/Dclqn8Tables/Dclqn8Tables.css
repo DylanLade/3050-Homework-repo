@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Arial|Helvetica');
+
+body{
+    background-color: gray;
+    background-image: url(posters/background.jpg);
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+div{
+    Border: 10px solid darkgreen;
+    margin: 2.5% 25%;
+    background-color: darkgrey;
+}
+
+tr, th, td{
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.rating{
+    font-style: bold;
+    color: crimson;
+    border: 1px solid crimson;
+    padding 5px;
+    padding-top: 5px;
+    font-family: serif;
+}
+
+.info{
+    float: right;
+}
+
+.movieTitle{
+    float: left;
+}
+.titleRow{
+    height: 10vh;
+    background-color: darkgreen;
+    color: white;
+}
+
+.poster{
+    width: 120px;
+    padding: 0px 0px 0px 0px;
+    margin; 0 0 0 0;
+}
+
+.times{
+    background-color: white;
+}
